@@ -1,5 +1,8 @@
 {
   "private": true,
+  "prisma": {
+    "seed": "node prisma/seed.mjs"
+  },
   "scripts": {
     "build": "nuxt build",
     "dev": "nuxt dev",
@@ -12,7 +15,8 @@
     "@tailwindcss/typography": "^0.5.8",
     "@vueuse/core": "^9.6.0",
     "@vueuse/nuxt": "^9.6.0",
-    "nuxt": "3.0.0"
+    "nuxt": "3.0.0",
+    "prisma": "^4.10.1"
   },
   "dependencies": {
     "@pnpm/exe": "^7.27.1"
